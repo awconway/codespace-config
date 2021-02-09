@@ -1,7 +1,19 @@
 FROM rocker/tidyverse
 
 RUN install2.r --error \
-    targets
+    targets \
+    languageserver \
+    httpgd \
+    here \
+    xaringan \
+    xaringanthemer
+
+    
+RUN installGithub.r \
+    dreamRs/prefixer \
+    crsh/citr
+
+
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"

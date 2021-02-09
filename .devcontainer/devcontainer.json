@@ -1,7 +1,8 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.158.0/containers/r
 {
-	"name": "R (Community)",
+	"name": "🚀 R",
+	// "image": "awconway/codespace-config-r",
 	"build": {
 		"dockerfile": "Dockerfile",
 	},
